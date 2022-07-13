@@ -8,9 +8,9 @@ void setup() {
   background(0);
 
   // SolverEquation(PopSize, ChromLen, MutRate, CxRate)
-  solver = new SolverEquation(5000, 100, 0.1, 0.2);
-  // SolverTSO(CityNum, PopSize, MutRate, CxRate)
-  // solver = new SolverTSP(50, 10000, 0.01, 0.3);
+  // solver = new SolverEquation(5000, 100, 0.1, 0.2);
+  // SolverTSP(CityNum, PopSize, MutRate, CxRate)
+  solver = new SolverTSP(50, 10000, 0.01, 0.3);
 }
 
 void draw() {
